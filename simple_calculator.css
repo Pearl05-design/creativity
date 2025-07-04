@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    /* background-color::=011627;
+    color: =fdfffc; */
+    text-align: center;
+   
+}
+h1{    
+    font-size: 45px;
+}
+
+input{
+    width:75px;
+    height:50px;
+    font-size:45px;
+    border-radius:10px;
+    margin:10px;
+    background-color:dark-blue;
+    
+}    

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My favorite colors</title>
+</head>
+<body>
+    <style>
+  #myButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ </style>
+
+    <button id="myButton">Change Background Color</button>
+
+<script>
+  let colors = ["red", "pink", "green"];
+  let index = 0;
+  document.getElementById("myButton").addEventListener("click", function() {
+    index = (index + 1) % colors.length;
+    document.body.style.background = colors[index];
+  });
+</script>
+
+</script>
+
+    
+</body>
+</html>
